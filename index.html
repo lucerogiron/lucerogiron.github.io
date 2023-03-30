@@ -8,12 +8,64 @@
     <br />
     end def add_classmate(random)
     <br />
-    random.each do |person| @cohort << person end @cohort.each do |classmate| puts "Welcome #{classmate} to Actualize"
-    end return "Let's get started!" end def learning() puts "Check-in question" @cohort.each do |classmate| puts
-    "#{classmate} learns more about everyone" end puts "Amanda: Let's add testing" @cohort.each do |classmate| puts
-    "#{classmate} gets an error :(" end return "We love pickles and coding" end def congrats() @cohort.each do
-    |classmate| puts "#{classmate} is a developer!" end return "Thanks Amanda, Steve and Beth!" end end random =
-    ["Leah", "Neil", "Josh", "Lucero", "Mike", "Edward", "Luke", "Anna"] actualize_opp = Pickle.new p
-    actualize_opp.add_classmate(random) p actualize_opp.learning p actualize_opp.congrats
+    random.each do |person|
+    <br />
+    @cohort << person
+    <br />
+    end
+    <br />
+    @cohort.each do |classmate|
+    <br />
+    puts "Welcome #{classmate} to Actualize"
+    <br />
+    end
+    <br />
+    return "Let's get started!"
+    <br />
+    end
+    <br />
+    def learning()
+    <br />
+    puts "Check-in question"
+    <br />
+    @cohort.each do |classmate|
+    <br />
+    puts "#{classmate} learns more about everyone"
+    <br />
+    end
+    <br />
+    puts "Amanda: Let's add testing"
+    <br />
+    @cohort.each do |classmate|
+    <br />
+    puts "#{classmate} gets an error :("
+    <br />
+    end
+    <br />
+    return "We love pickles and coding"
+    <br />
+    end
+    <br />
+    def congrats()
+    <br />
+    @cohort.each do |classmate|
+    <br />
+    puts "#{classmate} is a developer!"
+    <br />
+    end
+    <br />
+    return "Thanks Amanda, Steve and Beth!"
+    <br />
+    end
+    <br />
+    end
+    <br />
+    random = ["Leah", "Neil", "Josh", "Lucero", "Mike", "Edward", "Luke", "Anna"]
+    <br />
+    actualize_opp = Pickle.new
+    <br />
+    p actualize_opp.add_classmate(random)
+    <br />
+    p actualize_opp.learning p actualize_opp.congrats
   </h1>
 </mark>
